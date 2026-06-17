@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-labelledby="title">
+  <title>CapCut</title>
+  <path
+    fill="#000000"
+    fill-rule="evenodd"
+    d="M72 18h127c22 0 40 18 40 40v6l53-28v29l-121 64 121 64v29l-53-28v-6c0 22-18 40-40 40H72c-22 0-40-18-40-40v-40l72-38-72-38V58c0-22 18-40 40-40Zm0 27c-7 0-13 6-13 13v12l90 48 90-48V58c0-7-6-13-13-13H72Zm0 156h154c7 0 13-6 13-13v-12l-90-48-90 48v12c0 7 6 13 13 13Z"
+  />
+  <path
+    fill="#ffffff"
+    d="M73 61h153c5 0 9 4 9 9v6l-86 45-85-45v-6c0-5 4-9 9-9Zm-9 113 85-45 86 45v7c0 5-4 9-9 9H73c-5 0-9-4-9-9v-7Z"
+  />
+</svg>

@@ -1,13 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title>Canva</title>
   <defs>
-    <linearGradient id="canvaGradient" x1="10" y1="54" x2="54" y2="10" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00c4cc"/>
-      <stop offset=".5" stop-color="#7d2ae8"/>
-      <stop offset="1" stop-color="#ff5e99"/>
-    </linearGradient>
+    <radialGradient id="canvaGlow" cx="28%" cy="22%" r="78%">
+      <stop offset="0" stop-color="#19d6cc"/>
+      <stop offset="0.42" stop-color="#17b7d8"/>
+      <stop offset="0.7" stop-color="#4665ee"/>
+      <stop offset="1" stop-color="#8a16f4"/>
+    </radialGradient>
   </defs>
-  <circle cx="32" cy="32" r="26" fill="url(#canvaGradient)"/>
-  <path d="M40.8 40.1c-2.4 3.2-5.7 5-9.6 5-7.1 0-12.5-5.5-12.5-12.7 0-7.4 5.7-13.5 13.1-13.5 3.3 0 6.2 1.1 8.2 3.2l-2.8 4.2c-1.4-1.3-3.1-2-5.1-2-4.3 0-7.4 3.5-7.4 7.9 0 4.3 3 7.4 7.1 7.4 2.5 0 4.4-1 6-3z" fill="#fff"/>
-  <circle cx="43.8" cy="22.4" r="2.6" fill="#fff" opacity=".9"/>
+  <circle cx="32" cy="32" r="30" fill="url(#canvaGlow)"/>
+  <path
+    fill="#ffffff"
+    d="M38.7 17.3c4.6.3 8.1 2.6 9.4 6.1 1.3 3.4.1 7.6-3.1 10.2-1 .8-2.4.8-3.2-.1-.8-.9-.6-2.2.5-3 2.1-1.7 2.9-4.1 2.1-6.2-.8-2.2-3.2-3.6-6.2-3.8-6.9-.4-13.3 6.2-15 15.5-1.3 7.2.9 12.1 5.8 12.4 3.6.2 7.1-2.1 9.6-6.2.7-1.1 2-1.5 3-.8 1 .6 1.2 1.9.5 3.1-3.4 5.4-8.3 8.3-13.4 8-7.6-.5-11.6-7.2-9.8-17.1 2.1-11.4 10.7-18.7 19.8-18.1Z"
+  />
 </svg>
